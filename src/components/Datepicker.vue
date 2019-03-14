@@ -7,6 +7,7 @@
       :translation="translation"
       :inline="inline"
       :id="id"
+      :size="size"
       :name="name"
       :refName="refName"
       :openDate="openDate"
@@ -114,6 +115,7 @@ export default {
     name: String,
     refName: String,
     id: String,
+    size: String,
     format: {
       type: [String, Function],
       default: 'dd MMM yyyy'
