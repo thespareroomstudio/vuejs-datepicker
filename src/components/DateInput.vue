@@ -16,6 +16,7 @@
       :name="name"
       :ref="refName"
       :id="id"
+      :size="size"
       :value="formattedValue"
       :open-date="openDate"
       :placeholder="placeholder"
@@ -48,6 +49,7 @@ export default {
     translation: Object,
     inline: Boolean,
     id: String,
+    size: String,
     name: String,
     refName: String,
     openDate: Date,
